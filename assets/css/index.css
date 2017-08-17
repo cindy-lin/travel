@@ -1,0 +1,36 @@
+.header {
+  width: 1000px;
+  height: 58px;
+  background-color: pink;
+  margin: 0 auto;
+  box-shadow: 0px 0px 1px 1px #ddd;
+}
+
+.header .header-left {
+  float: left;
+  padding: 13px 0;
+}
+
+.header .header-left a {
+  display: inline-block;
+  width: 136px;
+  height: 33px;
+  background: url("../images/logo.png") no-repeat 0 0;
+}
+
+.header .header-center {
+  float: left;
+  margin-left: 40px;
+}
+
+.header .header-center li {
+  float: left;
+  margin-right: 30px;
+  line-height: 58px;
+  font-size: 14px;
+}
+
+.header .header-center li a {
+  color: #333;
+  text-decoration: none;
+}
